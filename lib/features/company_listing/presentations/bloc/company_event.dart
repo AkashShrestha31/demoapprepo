@@ -1,0 +1,15 @@
+import 'package:equatable/equatable.dart';
+import 'package:meta/meta.dart';
+
+@immutable
+abstract class CompanyEvent extends Equatable {
+  @override
+  List<Object> get props => [];
+}
+
+class GetCompanyData extends CompanyEvent {
+  GetCompanyData();
+
+  @override
+  List<Object> get props => [];
+}
